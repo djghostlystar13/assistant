@@ -21,40 +21,40 @@ client.on('message', message => {
 
 //fun featues of bot
 client.on('message', message => {
-    if (message.content == 'No') {
+    if (message.content === 'No') {
     	message.reply('Yes!');
   	}
-            if (message.content == 'no') {
+            if (message.content === 'no') {
     	        message.reply('Yes!');
   	       }
-     if (message.content == 'Yes') {
+     if (message.content === 'Yes') {
     	message.reply('No!');
   	}
-            if (message.content == 'yes') {
+            if (message.content === 'yes') {
     	        message.reply('No!');
   	      }
 });
 
 client.on('message', message => {
-     if (message.content == 'hi') {
+     if (message.content === 'hi') {
     	message.reply('Bye!');
   	}
-            if (message.content == 'Hi') {
+            if (message.content === 'Hi') {
     	        message.reply('Bye!');
   	        }
-    if (message.content == 'hello') {
+    if (message.content === 'hello') {
     	message.reply('Goodbye!');
   	}
-            if (message.content == 'Hello') {
+            if (message.content === 'Hello') {
     	        message.reply('Goodbye!');
   	        }
-     if (message.content == 'bye') {
+     if (message.content === 'bye') {
     	message.reply('Hello!');
   	}
-    if (message.content == 'goodbye') {
+    if (message.content === 'goodbye') {
     	message.reply('Hello!');
   	}
-            if (message.content == 'Goodbye') {
+            if (message.content === 'Goodbye') {
     	          message.reply('Hello!');
   	        }
 });
@@ -69,16 +69,16 @@ client.on('message', message => {
 });
 
    client.on('message', message => {
-    if (message.content == 'goodnight') {
+    if (message.content === 'goodnight') {
     	message.reply('Goodnight, sleep well, talk to you again soon');
   	}
-           if (message.content == 'Goodnight') {
+           if (message.content === 'Goodnight') {
             message.reply('Goodnight, sleep well, talk to you again soon');
             }
-                 if (message.content == 'night') {
+                 if (message.content === 'night') {
                     message.reply('Goodnight, sleep well, talk to you again soon');
                     }
-                        if (message.content == 'Night') {
+                        if (message.content === 'Night') {
                     message.reply('Goodnight, sleep well, talk to you again soon');
                     }
     });
