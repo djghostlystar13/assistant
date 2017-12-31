@@ -8,10 +8,10 @@ client.on(  +'ready', () => {
 client.on('message', message => {
     if (message.content === '@338202537712812043') {
     	message.channel.send('Do not mention the owner, if you keep doing it you will be removed!');
-           
+           	}
             if (message.content === '@396844249347260426') {
     	message.channel.send('Do not mention the developers , if you keep doing it you will be removed!');
-
+            	}
     });
 client.on('message', message => {
     if (message.content === prefix +'help') {
